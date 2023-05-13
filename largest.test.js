@@ -7,7 +7,7 @@ test('Finding the largest number', () => {
   
     // Edge case: single element array
     expect(findLargestNumber([42])).toBe(42);
-  
+    
     // Negative test cases
     expect(() => findLargestNumber()).toThrow('Input must be an array');
     expect(() => findLargestNumber('not an array')).toThrow('Input must be an array');
